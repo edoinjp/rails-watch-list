@@ -72,3 +72,5 @@ gem 'rails-controller-testing', group: [ :test ]
 group :test do
   gem 'database_cleaner'
 end
+
+gem "dotenv-rails"
