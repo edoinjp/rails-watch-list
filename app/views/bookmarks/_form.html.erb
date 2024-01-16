@@ -1,0 +1,5 @@
+<%= simple_form_for [@list, @bookmark] do |form| %>
+  <%= form.input :comment %>
+  <%= form.association :movie, collection: @movies %>
+  <%= form.button :submit %>
+<% end %>
